@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "10.0"
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "10.0"
+  s.visionos.deployment_target = "1.0.0"
   s.source   = { :git => "https://github.com/eldade/EEMetalTextureViewer.git", :tag => s.version }
   s.source_files = "EEMetalTextureViewer/*"
 end
