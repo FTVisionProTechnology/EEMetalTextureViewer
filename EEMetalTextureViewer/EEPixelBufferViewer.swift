@@ -45,6 +45,13 @@ public class EEPixelBufferViewer : EETextureViewer {
     
     private var planeParameters : [PVInternalPlaneParameters] = []
     
+    @MainActor
+    public func draw(){
+        let center = CGPoint(x: bounds.size.width / 2, y: bounds.size.height / 2)
+       let draw_rect = CGRect(origin: CGPoint(x: center.x - drawableSize.width / 2, y: center.y - drawableSize.height / 2), size: drawableSize)
+        super.draw(draw_rect)
+    }
+    
     var planeDescriptors : [PVPlaneDescriptor] = [] {
         didSet {
             

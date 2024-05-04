@@ -7,52 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5126CC9A1DC513EC0028D2E7 /* CVPixelFormatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5126CC991DC513EC0028D2E7 /* CVPixelFormatInfo.swift */; };
-		5126CC9D1DC5A3170028D2E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C561B1D93325200DCA09B /* ViewController.swift */; };
-		512F31651DC1B15900F445B3 /* EEPixelBufferViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F31641DC1B15900F445B3 /* EEPixelBufferViewer.swift */; };
-		512F31671DC30EC000F445B3 /* EECVImageBufferViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F31661DC30EC000F445B3 /* EECVImageBufferViewer.swift */; };
 		51383E7C228A5C9900687FF2 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51383E7B228A5C9900687FF2 /* CoreVideo.framework */; };
-		516C561A1D93325200DCA09B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C56191D93325200DCA09B /* AppDelegate.swift */; };
 		516C561F1D93325200DCA09B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516C561D1D93325200DCA09B /* Main.storyboard */; };
 		516C56211D93325200DCA09B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516C56201D93325200DCA09B /* Assets.xcassets */; };
 		516C562E1D9332B400DCA09B /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516C562C1D9332B400DCA09B /* Metal.framework */; };
 		516C562F1D9332B400DCA09B /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516C562D1D9332B400DCA09B /* MetalKit.framework */; };
-		516C56331D9346D500DCA09B /* EETextureViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516C56321D9346D500DCA09B /* EETextureViewer.swift */; };
-		516C56351D9360E700DCA09B /* EETextureViewer.metal in Sources */ = {isa = PBXBuildFile; fileRef = 516C56341D9360E700DCA09B /* EETextureViewer.metal */; };
-		51910B751DA0E7C200AECC50 /* ContentModes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51910B741DA0E7C200AECC50 /* ContentModes.plist */; };
-		51AA2B2D1DA1772200C16A32 /* PixelFormats.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51AA2B2C1DA1772200C16A32 /* PixelFormats.plist */; };
-		51AA2B2F1DA2242E00C16A32 /* CameraSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA2B2E1DA2242E00C16A32 /* CameraSource.swift */; };
-		51D7653C1DA6F74500BAC303 /* StillImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D7653B1DA6F74500BAC303 /* StillImageSource.swift */; };
-		51FA79961D964F5100DC447C /* iPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FA79921D964F5100DC447C /* iPhone5.png */; };
-		51FA79971D964F5100DC447C /* iPad Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FA79931D964F5100DC447C /* iPad Screen.png */; };
-		51FA79981D964F5100DC447C /* iPhones.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FA79941D964F5100DC447C /* iPhones.png */; };
-		51FA79991D964F5100DC447C /* yuv.png in Resources */ = {isa = PBXBuildFile; fileRef = 51FA79951D964F5100DC447C /* yuv.png */; };
+		7F3259D32BE6C13100E7D998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259C72BE6C13100E7D998 /* AppDelegate.swift */; };
+		7F3259D42BE6C13100E7D998 /* CameraSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259C82BE6C13100E7D998 /* CameraSource.swift */; };
+		7F3259D52BE6C13100E7D998 /* ContentModes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F3259C92BE6C13100E7D998 /* ContentModes.plist */; };
+		7F3259D62BE6C13100E7D998 /* CVPixelFormatInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259CA2BE6C13100E7D998 /* CVPixelFormatInfo.swift */; };
+		7F3259D72BE6C13100E7D998 /* iPad Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3259CB2BE6C13100E7D998 /* iPad Screen.png */; };
+		7F3259D82BE6C13100E7D998 /* iPhone5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3259CC2BE6C13100E7D998 /* iPhone5.png */; };
+		7F3259D92BE6C13100E7D998 /* iPhones.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3259CD2BE6C13100E7D998 /* iPhones.png */; };
+		7F3259DA2BE6C13100E7D998 /* PixelFormats.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7F3259CE2BE6C13100E7D998 /* PixelFormats.plist */; };
+		7F3259DB2BE6C13100E7D998 /* StillImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259CF2BE6C13100E7D998 /* StillImageSource.swift */; };
+		7F3259DC2BE6C13100E7D998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259D02BE6C13100E7D998 /* ViewController.swift */; };
+		7F3259DD2BE6C13100E7D998 /* yuv.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3259D12BE6C13100E7D998 /* yuv.png */; };
+		7F3259E42BE6C14600E7D998 /* EECVImageBufferViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259DE2BE6C14600E7D998 /* EECVImageBufferViewer.swift */; };
+		7F3259E52BE6C14600E7D998 /* EEPixelBufferViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259DF2BE6C14600E7D998 /* EEPixelBufferViewer.swift */; };
+		7F3259E62BE6C14600E7D998 /* EETextureViewer.metal in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259E02BE6C14600E7D998 /* EETextureViewer.metal */; };
+		7F3259E72BE6C14600E7D998 /* EETextureViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259E12BE6C14600E7D998 /* EETextureViewer.swift */; };
+		7F3259E82BE6C14600E7D998 /* MTKView_visionOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3259E22BE6C14600E7D998 /* MTKView_visionOS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5126CC991DC513EC0028D2E7 /* CVPixelFormatInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CVPixelFormatInfo.swift; path = "../Sample App/CVPixelFormatInfo.swift"; sourceTree = "<group>"; };
-		512F31641DC1B15900F445B3 /* EEPixelBufferViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EEPixelBufferViewer.swift; path = ../EEMetalTextureViewer/EEPixelBufferViewer.swift; sourceTree = "<group>"; };
-		512F31661DC30EC000F445B3 /* EECVImageBufferViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EECVImageBufferViewer.swift; path = ../EEMetalTextureViewer/EECVImageBufferViewer.swift; sourceTree = "<group>"; };
 		51383E7B228A5C9900687FF2 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		51383E7D228A91DC00687FF2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		516C56161D93325200DCA09B /* EEMetalPixelViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EEMetalPixelViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		516C56191D93325200DCA09B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../Sample App/AppDelegate.swift"; sourceTree = "<group>"; };
-		516C561B1D93325200DCA09B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../Sample App/ViewController.swift"; sourceTree = "<group>"; };
 		516C561E1D93325200DCA09B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		516C56201D93325200DCA09B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		516C56251D93325200DCA09B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516C562C1D9332B400DCA09B /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		516C562D1D9332B400DCA09B /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
-		516C56321D9346D500DCA09B /* EETextureViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EETextureViewer.swift; path = ../EEMetalTextureViewer/EETextureViewer.swift; sourceTree = "<group>"; };
-		516C56341D9360E700DCA09B /* EETextureViewer.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; name = EETextureViewer.metal; path = ../EEMetalTextureViewer/EETextureViewer.metal; sourceTree = "<group>"; };
-		51910B741DA0E7C200AECC50 /* ContentModes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ContentModes.plist; path = "../Sample App/ContentModes.plist"; sourceTree = "<group>"; };
-		51AA2B2C1DA1772200C16A32 /* PixelFormats.plist */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = PixelFormats.plist; path = "../Sample App/PixelFormats.plist"; sourceTree = "<group>"; };
-		51AA2B2E1DA2242E00C16A32 /* CameraSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraSource.swift; path = "../Sample App/CameraSource.swift"; sourceTree = "<group>"; };
-		51D7653B1DA6F74500BAC303 /* StillImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StillImageSource.swift; path = "../Sample App/StillImageSource.swift"; sourceTree = "<group>"; };
-		51FA79921D964F5100DC447C /* iPhone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhone5.png; path = "../Sample App/iPhone5.png"; sourceTree = "<group>"; };
-		51FA79931D964F5100DC447C /* iPad Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad Screen.png"; path = "../Sample App/iPad Screen.png"; sourceTree = "<group>"; };
-		51FA79941D964F5100DC447C /* iPhones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhones.png; path = "../Sample App/iPhones.png"; sourceTree = "<group>"; };
-		51FA79951D964F5100DC447C /* yuv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = yuv.png; path = "../Sample App/yuv.png"; sourceTree = "<group>"; };
+		7F3259C72BE6C13100E7D998 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F3259C82BE6C13100E7D998 /* CameraSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraSource.swift; sourceTree = "<group>"; };
+		7F3259C92BE6C13100E7D998 /* ContentModes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContentModes.plist; sourceTree = "<group>"; };
+		7F3259CA2BE6C13100E7D998 /* CVPixelFormatInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVPixelFormatInfo.swift; sourceTree = "<group>"; };
+		7F3259CB2BE6C13100E7D998 /* iPad Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPad Screen.png"; sourceTree = "<group>"; };
+		7F3259CC2BE6C13100E7D998 /* iPhone5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone5.png; sourceTree = "<group>"; };
+		7F3259CD2BE6C13100E7D998 /* iPhones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhones.png; sourceTree = "<group>"; };
+		7F3259CE2BE6C13100E7D998 /* PixelFormats.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PixelFormats.plist; sourceTree = "<group>"; };
+		7F3259CF2BE6C13100E7D998 /* StillImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StillImageSource.swift; sourceTree = "<group>"; };
+		7F3259D02BE6C13100E7D998 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F3259D12BE6C13100E7D998 /* yuv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuv.png; sourceTree = "<group>"; };
+		7F3259DE2BE6C14600E7D998 /* EECVImageBufferViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EECVImageBufferViewer.swift; sourceTree = "<group>"; };
+		7F3259DF2BE6C14600E7D998 /* EEPixelBufferViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EEPixelBufferViewer.swift; sourceTree = "<group>"; };
+		7F3259E02BE6C14600E7D998 /* EETextureViewer.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = EETextureViewer.metal; sourceTree = "<group>"; };
+		7F3259E12BE6C14600E7D998 /* EETextureViewer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EETextureViewer.swift; sourceTree = "<group>"; };
+		7F3259E22BE6C14600E7D998 /* MTKView_visionOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTKView_visionOS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,40 +71,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		51517E45228A01E6003C4476 /* Sample App */ = {
-			isa = PBXGroup;
-			children = (
-				516C561B1D93325200DCA09B /* ViewController.swift */,
-				516C56191D93325200DCA09B /* AppDelegate.swift */,
-				51D7653B1DA6F74500BAC303 /* StillImageSource.swift */,
-				5126CC991DC513EC0028D2E7 /* CVPixelFormatInfo.swift */,
-				51AA2B2E1DA2242E00C16A32 /* CameraSource.swift */,
-				51910B741DA0E7C200AECC50 /* ContentModes.plist */,
-				51AA2B2C1DA1772200C16A32 /* PixelFormats.plist */,
-			);
-			name = "Sample App";
-			path = eldade_metal_tests;
-			sourceTree = "<group>";
-		};
-		51517E46228A0203003C4476 /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				516C56321D9346D500DCA09B /* EETextureViewer.swift */,
-				516C56341D9360E700DCA09B /* EETextureViewer.metal */,
-				512F31641DC1B15900F445B3 /* EEPixelBufferViewer.swift */,
-				512F31661DC30EC000F445B3 /* EECVImageBufferViewer.swift */,
-			);
-			name = Engine;
-			path = eldade_metal_tests;
-			sourceTree = "<group>";
-		};
 		516C560D1D93325200DCA09B = {
 			isa = PBXGroup;
 			children = (
+				7F3259E32BE6C14600E7D998 /* EEMetalTextureViewer */,
 				51383E7D228A91DC00687FF2 /* README.md */,
-				51517E45228A01E6003C4476 /* Sample App */,
-				51D7653D1DA6F7BE00BAC303 /* Sample Images */,
-				51517E46228A0203003C4476 /* Engine */,
+				7F3259D22BE6C13100E7D998 /* Sample App */,
 				516C561D1D93325200DCA09B /* Main.storyboard */,
 				516C56201D93325200DCA09B /* Assets.xcassets */,
 				516C56251D93325200DCA09B /* Info.plist */,
@@ -129,16 +103,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		51D7653D1DA6F7BE00BAC303 /* Sample Images */ = {
+		7F3259D22BE6C13100E7D998 /* Sample App */ = {
 			isa = PBXGroup;
 			children = (
-				51FA79921D964F5100DC447C /* iPhone5.png */,
-				51FA79931D964F5100DC447C /* iPad Screen.png */,
-				51FA79941D964F5100DC447C /* iPhones.png */,
-				51FA79951D964F5100DC447C /* yuv.png */,
+				7F3259C72BE6C13100E7D998 /* AppDelegate.swift */,
+				7F3259C82BE6C13100E7D998 /* CameraSource.swift */,
+				7F3259C92BE6C13100E7D998 /* ContentModes.plist */,
+				7F3259CA2BE6C13100E7D998 /* CVPixelFormatInfo.swift */,
+				7F3259CB2BE6C13100E7D998 /* iPad Screen.png */,
+				7F3259CC2BE6C13100E7D998 /* iPhone5.png */,
+				7F3259CD2BE6C13100E7D998 /* iPhones.png */,
+				7F3259CE2BE6C13100E7D998 /* PixelFormats.plist */,
+				7F3259CF2BE6C13100E7D998 /* StillImageSource.swift */,
+				7F3259D02BE6C13100E7D998 /* ViewController.swift */,
+				7F3259D12BE6C13100E7D998 /* yuv.png */,
 			);
-			name = "Sample Images";
-			path = eldade_metal_tests;
+			path = "Sample App";
+			sourceTree = "<group>";
+		};
+		7F3259E32BE6C14600E7D998 /* EEMetalTextureViewer */ = {
+			isa = PBXGroup;
+			children = (
+				7F3259DE2BE6C14600E7D998 /* EECVImageBufferViewer.swift */,
+				7F3259DF2BE6C14600E7D998 /* EEPixelBufferViewer.swift */,
+				7F3259E02BE6C14600E7D998 /* EETextureViewer.metal */,
+				7F3259E12BE6C14600E7D998 /* EETextureViewer.swift */,
+				7F3259E22BE6C14600E7D998 /* MTKView_visionOS.swift */,
+			);
+			path = EEMetalTextureViewer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,7 +165,7 @@
 				TargetAttributes = {
 					516C56151D93325200DCA09B = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = XPSUQMMH5W;
+						DevelopmentTeam = GCTMPJ4V33;
 						LastSwiftMigration = 1010;
 						ProvisioningStyle = Automatic;
 					};
@@ -184,6 +176,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -202,14 +195,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51AA2B2D1DA1772200C16A32 /* PixelFormats.plist in Resources */,
+				7F3259D72BE6C13100E7D998 /* iPad Screen.png in Resources */,
 				516C56211D93325200DCA09B /* Assets.xcassets in Resources */,
-				51910B751DA0E7C200AECC50 /* ContentModes.plist in Resources */,
+				7F3259D92BE6C13100E7D998 /* iPhones.png in Resources */,
 				516C561F1D93325200DCA09B /* Main.storyboard in Resources */,
-				51FA79981D964F5100DC447C /* iPhones.png in Resources */,
-				51FA79971D964F5100DC447C /* iPad Screen.png in Resources */,
-				51FA79991D964F5100DC447C /* yuv.png in Resources */,
-				51FA79961D964F5100DC447C /* iPhone5.png in Resources */,
+				7F3259DA2BE6C13100E7D998 /* PixelFormats.plist in Resources */,
+				7F3259DD2BE6C13100E7D998 /* yuv.png in Resources */,
+				7F3259D52BE6C13100E7D998 /* ContentModes.plist in Resources */,
+				7F3259D82BE6C13100E7D998 /* iPhone5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,15 +213,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5126CC9D1DC5A3170028D2E7 /* ViewController.swift in Sources */,
-				516C56331D9346D500DCA09B /* EETextureViewer.swift in Sources */,
-				516C56351D9360E700DCA09B /* EETextureViewer.metal in Sources */,
-				516C561A1D93325200DCA09B /* AppDelegate.swift in Sources */,
-				512F31651DC1B15900F445B3 /* EEPixelBufferViewer.swift in Sources */,
-				512F31671DC30EC000F445B3 /* EECVImageBufferViewer.swift in Sources */,
-				5126CC9A1DC513EC0028D2E7 /* CVPixelFormatInfo.swift in Sources */,
-				51AA2B2F1DA2242E00C16A32 /* CameraSource.swift in Sources */,
-				51D7653C1DA6F74500BAC303 /* StillImageSource.swift in Sources */,
+				7F3259D62BE6C13100E7D998 /* CVPixelFormatInfo.swift in Sources */,
+				7F3259DC2BE6C13100E7D998 /* ViewController.swift in Sources */,
+				7F3259E42BE6C14600E7D998 /* EECVImageBufferViewer.swift in Sources */,
+				7F3259E62BE6C14600E7D998 /* EETextureViewer.metal in Sources */,
+				7F3259D32BE6C13100E7D998 /* AppDelegate.swift in Sources */,
+				7F3259DB2BE6C13100E7D998 /* StillImageSource.swift in Sources */,
+				7F3259E72BE6C14600E7D998 /* EETextureViewer.swift in Sources */,
+				7F3259E52BE6C14600E7D998 /* EEPixelBufferViewer.swift in Sources */,
+				7F3259D42BE6C13100E7D998 /* CameraSource.swift in Sources */,
+				7F3259E82BE6C14600E7D998 /* MTKView_visionOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,14 +337,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XPSUQMMH5W;
+				DEVELOPMENT_TEAM = GCTMPJ4V33;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.eldade-metal-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ste.eldade-metal-tests.ste";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,14 +356,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = XPSUQMMH5W;
+				DEVELOPMENT_TEAM = GCTMPJ4V33;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.apple.eldade-metal-tests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ste.eldade-metal-tests.ste";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_SWIFT3_OBJC_INFERENCE = On;
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

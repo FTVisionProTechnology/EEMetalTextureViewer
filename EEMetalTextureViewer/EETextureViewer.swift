@@ -10,7 +10,7 @@ import UIKit
 import MetalKit
 import MetalPerformanceShaders
 
-public class EETextureViewer: MTKView {
+public class EETextureViewer: MTKView_visionOS {
     
 //    #if DEBUG
     
@@ -102,7 +102,7 @@ public class EETextureViewer: MTKView {
         configureWithDevice(device!)
     }
     
-    required init(coder: NSCoder)
+    required init?(coder: NSCoder)
     {
         super.init(coder: coder)
         configureWithDevice(MTLCreateSystemDefaultDevice()!)
@@ -111,10 +111,10 @@ public class EETextureViewer: MTKView {
     private func configureWithDevice(_ device : MTLDevice) {
         self.clearColor = MTLClearColor.init(red: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
         self.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        self.framebufferOnly = false
+//        self.framebufferOnly = false
         self.colorPixelFormat = .bgra8Unorm
         
-        self.preferredFramesPerSecond = 0
+//        self.preferredFramesPerSecond = 0
         
         self.addSubview(statsView)
         statsView.backgroundColor = UIColor.clear
@@ -335,7 +335,7 @@ public class EETextureViewer: MTKView {
             commandQueue = (self.device?.makeCommandQueue())!
 
             let frameworkBundle = Bundle(for: type(of: self))
-            library = try? device?.makeDefaultLibrary(bundle: frameworkBundle)
+            library = try! device?.makeDefaultLibrary(bundle: frameworkBundle)
             pipelineDescriptor.vertexFunction = library?.makeFunction(name: "vertex_passthrough")
             pipelineDescriptor.fragmentFunction = library?.makeFunction(name: "basic_fragment")
             pipelineDescriptor.colorAttachments[0].pixelFormat = .bgra8Unorm

@@ -44,7 +44,8 @@ class CameraSource : NSObject, PixelSource, AVCaptureVideoDataOutputSampleBuffer
     var supportedPixelFormats : [String : OSType] = [
         "32BGRA" : 1111970369,
         "420YpCbCr8BiPlanarVideoRange" : 875704438,
-        "420YpCbCr8BiPlanarFullRange" : 875704422]
+        "420YpCbCr8BiPlanarFullRange" : 875704422,
+    ]
     
     var supportedPixelFormatNames: [String] {
         let allKeys = supportedPixelFormats.keys
@@ -73,7 +74,7 @@ class CameraSource : NSObject, PixelSource, AVCaptureVideoDataOutputSampleBuffer
     
     var captureSession : AVCaptureSession = AVCaptureSession()
     
-    var videoConnection : AVCaptureConnection = AVCaptureConnection()
+//    var videoConnection : AVCaptureConnection = AVCaptureConnection()
     
     let videoOutputQueue : DispatchQueue = DispatchQueue(label: "videoOutputQueue")
     

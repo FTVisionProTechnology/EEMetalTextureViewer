@@ -21,7 +21,7 @@ public class EECVImageBufferViewer : EEPixelBufferViewer {
         initializeCVImageBufferViewer()
     }
     
-    required init(coder: NSCoder)
+    required init?(coder: NSCoder)
     {
         super.init(coder: coder)
     }
